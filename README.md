@@ -14,7 +14,7 @@ This custom app is used to retrieve information such as Stock Availability Statu
 
 **Steps to run the code locally on your system**
 
-1. Change the apiKey, apiPassword and the storeName in the app.js file.
+1. Change the apiKey, apiPassword and storeName in the app.js file.
 2. Run the command "node app.js" on the terminal. The port 3000 will start listening to the requests.
 3. Run "http://localhost:3000/" in your browser. This will open the home page to the app.
 4. Click on "List of orders" to go to "http://localhost:3000/orders", if you do not see the orders please wait for a while or refresh the page.

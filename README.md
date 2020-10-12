@@ -8,7 +8,7 @@ This custom app is used to retrieve information related to an order such as Stoc
 1. Create a development store to test the app.
 2. Go to Apps > Manage private apps > Enable private app development
 3. After enabling the private app development, create a private app and enable the admin API permissions accordingly and allow the usage of Storefront API.
-4. After creating the custom app, the API key and Passoword will be generated which will be further used to test the app.
+4. After creating the custom app, the API key and Password will be generated which will be further used to test the app.
 5. Create products and orders in the store to have a database to work on.
 
 

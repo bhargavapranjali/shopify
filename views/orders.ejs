@@ -1,0 +1,23 @@
+<%- include ('partials/up') -%>
+
+
+<h1>Orders received </h1>
+<table>
+    <tr>
+        <th scope="col">Order Id</th>
+        <th scope="col">Stock Availability Status</th>
+        <th scope="col">Payment Status</th>
+        <th scope="col">Fulfillment Status</th>
+        <th scope="col">Return Status</th>
+    </tr>
+    <% for(var i=0 ; i<orders.length  ; i++) {%>
+        <tr>
+            <td scope="row"><%=orders[i].order_id %></td>
+            <td><%=orders[i].available %></td>
+            <td><%=orders[i].payment %></td>
+            <td><%=orders[i].fulfillment %></td>
+            <td><%=orders[i].return %></td>
+        </tr>
+    <%}%>
+</table>
+<%- include ('partials/down') -%>

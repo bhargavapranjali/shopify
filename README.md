@@ -1,6 +1,6 @@
 # shopify
 
-This custom app is used to retrieve information related to an order such as Stock Availability Status, Payment Status, Fulfillment Status, Return Status corresponding to a given order using Order Id.
+This custom app is used to retrieve information such as Stock Availability Status, Payment Status, Fulfillment Status, Return Status corresponding to a given order using Order Id.
 
 
 **Steps to create a testing environment for the custom app**

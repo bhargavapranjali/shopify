@@ -2,9 +2,8 @@
 
 This custom app is used to retrieve information related to an order such as Stock Availability Status, Payment Status, Fulfillment Status, Return Status corresponding to a given order using Order Id.
 
-========================================================
-Steps to create a testing environment for the custom app
-========================================================
+
+**Steps to create a testing environment for the custom app**
 
 1. Create a development store to test the app.
 2. Go to Apps > Manage private apps > Enable private app development
@@ -12,9 +11,8 @@ Steps to create a testing environment for the custom app
 4. After creating the custom app, the API key and Passoword will be generated which will be further used to test the app.
 5. Create products and orders in the store to have a database to work on.
 
-============================================
-Steps to run the code locally on your system
-============================================
+
+**Steps to run the code locally on your system**
 
 1. Change the apiKey, apiPassword and the storeName in the app.js file.
 2. Run the command "node app.js" on the terminal. The port 3000 will start listening to the requests.
